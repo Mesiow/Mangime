@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  Mangime
 //
-//  Created by Chris W on 3/16/23.
+//  Created by Mesiow on 3/16/23.
 //
 
 import UIKit

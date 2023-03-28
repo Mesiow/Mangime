@@ -9,21 +9,33 @@
 /* Begin PBXBuildFile section */
 		C0532F3129C3728200B72E7B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0532F3029C3728200B72E7B /* AppDelegate.swift */; };
 		C0532F3329C3728200B72E7B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0532F3229C3728200B72E7B /* SceneDelegate.swift */; };
-		C0532F3529C3728200B72E7B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0532F3429C3728200B72E7B /* ViewController.swift */; };
+		C0532F3529C3728200B72E7B /* MangimeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0532F3429C3728200B72E7B /* MangimeViewController.swift */; };
 		C0532F3829C3728200B72E7B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0532F3629C3728200B72E7B /* Main.storyboard */; };
 		C0532F3A29C3728500B72E7B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C0532F3929C3728500B72E7B /* Assets.xcassets */; };
 		C0532F3D29C3728500B72E7B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C0532F3B29C3728500B72E7B /* LaunchScreen.storyboard */; };
+		C0532F4829C4C19600B72E7B /* MangimeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0532F4729C4C19600B72E7B /* MangimeManager.swift */; };
+		C0532F4A29C4C1F500B72E7B /* MangimeData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0532F4929C4C1F500B72E7B /* MangimeData.swift */; };
+		C0532F4C29C4F59900B72E7B /* MangimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0532F4B29C4F59800B72E7B /* MangimeModel.swift */; };
+		C0532F4F29C8C30500B72E7B /* MangimeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C0532F4D29C8C30500B72E7B /* MangimeCell.swift */; };
+		C0532F5029C8C30500B72E7B /* MangimeCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C0532F4E29C8C30500B72E7B /* MangimeCell.xib */; };
+		C08DF0DD29CE0D2600C18E50 /* MangimeInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C08DF0DC29CE0D2600C18E50 /* MangimeInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		C0532F2D29C3728200B72E7B /* Mangime.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Mangime.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C0532F3029C3728200B72E7B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C0532F3229C3728200B72E7B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		C0532F3429C3728200B72E7B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C0532F3429C3728200B72E7B /* MangimeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangimeViewController.swift; sourceTree = "<group>"; };
 		C0532F3729C3728200B72E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C0532F3929C3728500B72E7B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C0532F3C29C3728500B72E7B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C0532F3E29C3728500B72E7B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C0532F4729C4C19600B72E7B /* MangimeManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangimeManager.swift; sourceTree = "<group>"; };
+		C0532F4929C4C1F500B72E7B /* MangimeData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangimeData.swift; sourceTree = "<group>"; };
+		C0532F4B29C4F59800B72E7B /* MangimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangimeModel.swift; sourceTree = "<group>"; };
+		C0532F4D29C8C30500B72E7B /* MangimeCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangimeCell.swift; sourceTree = "<group>"; };
+		C0532F4E29C8C30500B72E7B /* MangimeCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MangimeCell.xib; sourceTree = "<group>"; };
+		C08DF0DC29CE0D2600C18E50 /* MangimeInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MangimeInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +68,45 @@
 		C0532F2F29C3728200B72E7B /* Mangime */ = {
 			isa = PBXGroup;
 			children = (
+				C0532F4629C4C17A00B72E7B /* Models */,
+				C0532F4529C3768900B72E7B /* Views */,
+				C0532F4429C372CF00B72E7B /* Controllers */,
 				C0532F3029C3728200B72E7B /* AppDelegate.swift */,
 				C0532F3229C3728200B72E7B /* SceneDelegate.swift */,
-				C0532F3429C3728200B72E7B /* ViewController.swift */,
-				C0532F3629C3728200B72E7B /* Main.storyboard */,
 				C0532F3929C3728500B72E7B /* Assets.xcassets */,
 				C0532F3B29C3728500B72E7B /* LaunchScreen.storyboard */,
 				C0532F3E29C3728500B72E7B /* Info.plist */,
 			);
 			path = Mangime;
+			sourceTree = "<group>";
+		};
+		C0532F4429C372CF00B72E7B /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				C0532F3429C3728200B72E7B /* MangimeViewController.swift */,
+				C08DF0DC29CE0D2600C18E50 /* MangimeInfoViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		C0532F4529C3768900B72E7B /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C0532F3629C3728200B72E7B /* Main.storyboard */,
+				C0532F4D29C8C30500B72E7B /* MangimeCell.swift */,
+				C0532F4E29C8C30500B72E7B /* MangimeCell.xib */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C0532F4629C4C17A00B72E7B /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				C0532F4729C4C19600B72E7B /* MangimeManager.swift */,
+				C0532F4929C4C1F500B72E7B /* MangimeData.swift */,
+				C0532F4B29C4F59800B72E7B /* MangimeModel.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +169,7 @@
 			files = (
 				C0532F3D29C3728500B72E7B /* LaunchScreen.storyboard in Resources */,
 				C0532F3A29C3728500B72E7B /* Assets.xcassets in Resources */,
+				C0532F5029C8C30500B72E7B /* MangimeCell.xib in Resources */,
 				C0532F3829C3728200B72E7B /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,8 +181,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0532F3529C3728200B72E7B /* ViewController.swift in Sources */,
+				C0532F4829C4C19600B72E7B /* MangimeManager.swift in Sources */,
+				C0532F3529C3728200B72E7B /* MangimeViewController.swift in Sources */,
+				C0532F4C29C4F59900B72E7B /* MangimeModel.swift in Sources */,
+				C08DF0DD29CE0D2600C18E50 /* MangimeInfoViewController.swift in Sources */,
 				C0532F3129C3728200B72E7B /* AppDelegate.swift in Sources */,
+				C0532F4F29C8C30500B72E7B /* MangimeCell.swift in Sources */,
+				C0532F4A29C4C1F500B72E7B /* MangimeData.swift in Sources */,
 				C0532F3329C3728200B72E7B /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -290,11 +338,13 @@
 				DEVELOPMENT_TEAM = 822D8Y7G66;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mangime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mangime;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -318,11 +368,13 @@
 				DEVELOPMENT_TEAM = 822D8Y7G66;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Mangime/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = Mangime;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
